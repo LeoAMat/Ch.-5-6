@@ -10,13 +10,13 @@ import java.util.Scanner;
  */
 public class P4 {
 
+    private static DecimalFormat df2 = new DecimalFormat("#.##");
+
     /**
      * Main Method
      *
      * @param args arguments from command line prompt
      */
-    private static DecimalFormat df2 = new DecimalFormat("#.##");
-
     public static void main(String[] args) {
         Scanner i = new Scanner(System.in);
         String n1, n2;

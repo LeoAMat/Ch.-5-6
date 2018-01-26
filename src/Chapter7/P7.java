@@ -22,15 +22,14 @@ public class P7 {
         s = i.nextInt();
         a1 = new int[s];
         input(a1, i);
-        System.out.println("Enter array average: " + avg(a1));
+        System.out.println("Array average: " + avg(a1));
         print(a1);
     }
 
     /**
      *
-     * @param a1
-     * @param i
-     * @return
+     * @param a1 Array inputed by user
+     * @param i Scanner used to receive array
      */
     public static void input(int[] a1, Scanner i) {
         int x = 0;
@@ -43,8 +42,8 @@ public class P7 {
 
     /**
      *
-     * @param a1
-     * @return
+     * @param a1 Array inputed by user
+     * @return Array average
      */
     public static double avg(int[] a1) {
         int x = 0;
@@ -58,8 +57,7 @@ public class P7 {
 
     /**
      *
-     * @param a1
-     * @return
+     * @param a1 Array inputed by user
      */
     public static void print(int[] a1) {
         int x = 0;

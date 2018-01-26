@@ -31,9 +31,10 @@ public class C7_9 {
     }
 
     /**
+     * Method sorts an array numerically
      *
-     * @param array
-     * @return
+     * @param array array inputed by user
+     * @return array returns sorted array
      */
     public static double min(double[] array) {
         Arrays.sort(array);

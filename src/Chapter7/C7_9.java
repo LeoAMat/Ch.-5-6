@@ -30,6 +30,11 @@ public class C7_9 {
         System.out.print("Smallest number: " + m);
     }
 
+    /**
+     *
+     * @param array
+     * @return
+     */
     public static double min(double[] array) {
         Arrays.sort(array);
         return array[0];

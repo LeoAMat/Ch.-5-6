@@ -48,7 +48,7 @@ public class C7_26 {
      *
      * @param a1 the first array inputed by user
      * @param a2 the second array inputed by user
-     * @return true/false bool, determines in arrays are identical
+     * @return true/false boolean, determines in arrays are identical
      */
     public static boolean equals(int[] a1, int[] a2) {
         return Arrays.equals(a1, a2);

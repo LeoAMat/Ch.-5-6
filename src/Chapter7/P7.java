@@ -27,6 +27,7 @@ public class P7 {
     }
 
     /**
+     * Method inputs numbers into array
      *
      * @param a1 Array inputed by user
      * @param i Scanner used to receive array
@@ -41,6 +42,7 @@ public class P7 {
     }
 
     /**
+     * Method gets array average
      *
      * @param a1 Array inputed by user
      * @return Array average
@@ -56,6 +58,7 @@ public class P7 {
     }
 
     /**
+     * Method prints array
      *
      * @param a1 Array inputed by user
      */

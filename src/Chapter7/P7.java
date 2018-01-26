@@ -26,6 +26,12 @@ public class P7 {
         print(a1);
     }
 
+    /**
+     *
+     * @param a1
+     * @param i
+     * @return
+     */
     public static void input(int[] a1, Scanner i) {
         int x = 0;
         System.out.print("Enter array : ");
@@ -35,6 +41,11 @@ public class P7 {
         }
     }
 
+    /**
+     *
+     * @param a1
+     * @return
+     */
     public static double avg(int[] a1) {
         int x = 0;
         double t = 0;
@@ -45,6 +56,11 @@ public class P7 {
         return t / (a1.length);
     }
 
+    /**
+     *
+     * @param a1
+     * @return
+     */
     public static void print(int[] a1) {
         int x = 0;
         System.out.print("Array : ");

@@ -43,6 +43,12 @@ public class C7_26 {
         }
     }
 
+    /**
+     *
+     * @param a1
+     * @param a2
+     * @return
+     */
     public static boolean equals(int[] a1, int[] a2) {
         return Arrays.equals(a1, a2);
     }

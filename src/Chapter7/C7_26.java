@@ -44,10 +44,11 @@ public class C7_26 {
     }
 
     /**
+     * Method checks if two arrays are identical
      *
-     * @param a1
-     * @param a2
-     * @return
+     * @param a1 the first array inputed by user
+     * @param a2 the second array inputed by user
+     * @return true/false bool, determines in arrays are identical
      */
     public static boolean equals(int[] a1, int[] a2) {
         return Arrays.equals(a1, a2);
